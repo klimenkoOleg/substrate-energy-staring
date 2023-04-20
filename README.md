@@ -8,6 +8,7 @@ The parachain template is generated directly at each Polkadot release branch fro
 It is usually best to use the stand-alone version to start a new project.
 All bugs, suggestions, and feature requests should be made upstream in the [Substrate](https://github.com/paritytech/substrate/tree/master/bin/node-template) repository.
 
+
 ## Getting Started
 
 Depending on your operating system and Rust version, there might be additional packages required to compile this template.
