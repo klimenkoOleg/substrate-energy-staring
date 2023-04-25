@@ -1,6 +1,5 @@
----
-title: Installation
----
+# Rust Installation prerequisits
+
 
 This guide is for reference only, please check the latest information on getting starting with Substrate 
 [here](https://docs.substrate.io/main-docs/install/).
