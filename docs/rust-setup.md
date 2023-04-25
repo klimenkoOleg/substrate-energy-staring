@@ -1,4 +1,4 @@
-# Rust Installation prerequisits
+# Rust Installation prerequisites
 
 
 This guide is for reference only, please check the latest information on getting starting with Substrate 
@@ -221,4 +221,18 @@ specific nightly version, follow these steps:
 rustup uninstall nightly
 rustup install nightly-<yyyy-MM-dd>
 rustup target add wasm32-unknown-unknown --toolchain nightly-<yyyy-MM-dd>
+```
+
+For the most of my projects I used this version: 
+```
+nightly-2022-02-16
+```
+
+Also, to forse some peojects updated in 2022 to be build, one need to add in project root the file named 'rust-toolchain.toml' with the following content:
+```
+[toolchain]
+channel = "nightly-2023-01-01"
+components = [ "rustfmt" ]
+targets = [ "wasm32-unknown-unknown" ]
+profile = "minimal"
 ```
